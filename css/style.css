@@ -1,0 +1,186 @@
+body {
+  font-family: 'Alata', sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.582)), to(rgba(255, 255, 255, 0.637))), url("img/bg.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.637)), url("img/bg.jpg");
+}
+
+#header-section .carousel {
+  position: relative;
+}
+
+#header-section .carousel .heading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+}
+
+#header-section .carousel .heading-text p {
+  margin-bottom: -30px;
+  font-size: 25px;
+}
+
+#header-section .carousel .heading-text h1 {
+  font-size: 140px;
+}
+
+#header-section .carousel .carousel-inner {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+#header-section .carousel .carousel-inner .carousel-item {
+  z-index: -1;
+}
+
+#header-section .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#live-tv .title {
+  position: relative;
+}
+
+#live-tv .title p {
+  margin-top: -10px;
+}
+
+#live-tv .watch-btn:hover {
+  background-color: #222831 !important;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  height: .4rem;
+  background: red;
+  width: 8.2rem;
+  margin: auto;
+}
+
+#tv-section {
+  margin-top: 60px;
+}
+
+#tv-section .title-bg {
+  background-color: red;
+  display: inline-block;
+  padding: 9px 0;
+  -webkit-clip-path: polygon(0 0%, 100% 3%, 88% 100%, 0% 100%);
+          clip-path: polygon(0 0%, 100% 3%, 88% 100%, 0% 100%);
+  padding-right: 100px;
+  margin: 20px;
+}
+
+#tv-section .title-bg h2 {
+  margin-left: 20px;
+  color: #fff;
+}
+
+#tv-section .main-fram {
+  width: 100%;
+  border: 2px solid rgba(52, 58, 64, 0.418);
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#tv-section iframe {
+  width: 100%;
+  position: absolute;
+  top: -100px;
+  height: 790px;
+}
+
+#tv-section .side-showcase {
+  border: 2px solid rgba(52, 58, 64, 0.418);
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+}
+
+#tv-section .side-showcase .showcase-item {
+  background-color: rgba(226, 216, 216, 0.664);
+  margin: 5px;
+  cursor: pointer;
+}
+
+#tv-section .side-showcase .showcase-item:hover {
+  background-color: rgba(202, 193, 193, 0.664);
+}
+
+footer {
+  padding: 50px 0;
+}
+
+footer img {
+  width: 150px;
+}
+
+footer p {
+  font-family: arial !important;
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .footer-2 .svg-inline--fa {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+footer .footer-2 p {
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 5px;
+}
+
+.footer-3 h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-3 p {
+  font-family: arial;
+  font-size: 17px;
+}
+
+.footer-3 a .svg-inline--fa {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  margin: 5px;
+}
+
+.footer-3 a .fa-facebook-square {
+  margin-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+  #tv-section .main-fram {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 575px) {
+  #tv-section .main-fram {
+    height: 60vh !important;
+  }
+  #header-section .heading-text h1 {
+    font-size: 100px !important;
+  }
+  #live-tv .title h2 {
+    font-size: 70px !important;
+  }
+  .title-bg h2 {
+    font-size: 1.2rem;
+    margin-left: 0 !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
